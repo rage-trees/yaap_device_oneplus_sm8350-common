@@ -136,6 +136,14 @@ PRODUCT_COPY_FILES += \
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Get Qcom components
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
+TARGET_BOARD_PLATFORM := lahaina
+TARGET_COMMON_QTI_COMPONENTS := \
+    adreno \
+    media \
+    av
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
