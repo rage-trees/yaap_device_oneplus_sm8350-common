@@ -190,7 +190,9 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
-    android.hardware.drm-service.clearkey
+    android.hardware.drm-service.clearkey \
+    libcrypto_shim \
+    libdrm
 
 # Fastboot
 PRODUCT_PACKAGES += \
