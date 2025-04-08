@@ -27,6 +27,7 @@ namespace_imports = [
     'vendor/qcom/opensource/commonsys/display',
     'vendor/qcom/opensource/dataservices',
     'vendor/qcom/opensource/display',
+    'vendor/oplus/camera',
 ]
 
 
